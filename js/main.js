@@ -3,8 +3,6 @@ const imageId = document.getElementById("imageId");
 const scrolblack = document.getElementById("scrolblack");
 
 window.addEventListener("scroll", () => {
-  console.log("scrolling");
-  console.log(imageId);
   if (window.scrollY > 15) {
     headerId.classList.remove("bg-dark");
     headerId.classList.add("bg-light");
