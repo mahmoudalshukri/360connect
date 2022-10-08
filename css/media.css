@@ -1,0 +1,315 @@
+@media (max-width: 820px) {
+    .bg-light {
+        height: auto;
+    }
+
+    .bg-dark {
+        height: auto;
+    }
+
+
+    .d-flex {
+        justify-content: space-evenly;
+    }
+}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+    .navbar .has-megamenu {
+        position: static !important;
+    }
+
+    .navbar .megamenu {
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+
+
+}
+
+/* ============ desktop view .end// ============ */
+
+/* ============ mobile view ============ */
+@media(max-width: 991px) {
+
+    .navbar.fixed-top .navbar-collapse,
+    .navbar.sticky-top .navbar-collapse {
+        overflow-y: auto;
+        max-height: 90vh;
+        margin-top: 10px;
+    }
+
+    .first-big-section {
+        background-image: none;
+        background-color: #000;
+        height: auto;
+        /* Added By Mahmoud Alshukri Start */
+        padding-top: 80px;
+        /* Added By Mahmoud Alshukri End */
+        padding-bottom: 20px;
+    }
+
+    .why-choose-us .qe-para {
+        width: 100%;
+    }
+
+    .features-blocks {
+        flex-direction: column;
+    }
+
+    .first-big-section .all-text-details li {
+        font-size: 25px;
+    }
+
+    .box-button {
+        display: flex;
+    }
+
+    .first-big-section .all-text-details li .small {
+        font-size: 18px;
+    }
+
+    .faster-section {
+        margin-top: 20px;
+    }
+
+    h5 {
+        font-size: 22px;
+    }
+
+    .faster-section h5 {
+        font-size: 22px;
+    }
+
+    .why-choose-us {
+        margin-top: 20px;
+    }
+
+    .why-choose-us h5 {
+        margin-bottom: 35px;
+    }
+
+    .why-choose-us h5 {
+        font-size: 22px;
+    }
+
+    .mobile-tec {
+        flex-direction: column-reverse;
+    }
+
+    .explore-our-feature {
+        margin-top: 20px;
+    }
+
+    .features-blocks .block-box {
+        width: 100%;
+    }
+
+    .manage-business {
+        margin-top: 20px;
+    }
+
+    .manage-business .mobile-slid .img-box:nth-child(1) img {
+        height: auto;
+    }
+
+    .manage-business .mobile-slid .img-box:nth-child(2) img {
+        height: auto;
+    }
+
+    .manage-business .mobile-slid .img-box:nth-child(3) img {
+        height: auto;
+    }
+
+    .privacy-section {
+        margin-top: 20px;
+        height: auto;
+        background-image: none;
+    }
+
+    .privacy-section .left-side {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .privacy-section .left-side h5 {
+        font-size: 22px;
+    }
+
+    .privacy-section .left-side p {
+        width: 100%;
+    }
+
+    #join-the-beta {
+        padding-top: 20px;
+    }
+
+    #join-the-beta p {
+        width: 100%;
+    }
+
+    #question {
+        padding-top: 20px;
+    }
+
+    #question .container>p {
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+
+    footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #subscribe-form {
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    footer .icon-input-search {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    footer #subscribe-form input {
+        width: 100%;
+    }
+
+    footer #subscribe-form button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .navbar-dark .navbar-toggler {
+        box-shadow: none;
+    }
+
+    .register-section {
+        display: block;
+    }
+
+
+    .web-screen {
+        display: none;
+    }
+
+    .mobile-screen {
+        display: block;
+    }
+
+    /* start industies page */
+    .first-big-section-in-other-page .all-text-details {
+        padding-top: 30px;
+    }
+
+    .first-big-section-in-other-page .all-text-details p {
+        width: 100%;
+    }
+
+    .trust-by {
+        top: 0;
+    }
+
+    .trust-by .main-box {
+        height: auto;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .trust-by .main-box .box-contain {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+
+    }
+
+    .trust-by .main-box .box-contain .box-info {
+        width: 100%;
+        margin-bottom: 10px;
+
+
+    }
+
+    .full-indust-box .body-box {
+        height: auto;
+    }
+
+    .full-indust-box .body-box .h-100 {
+        padding-top: 15px;
+    }
+
+    .first-big-section-in-other-page img {
+        width: 100%;
+    }
+
+    .has-megamenu .box-continer p {
+        width: 100%;
+    }
+
+    .under-video {
+        margin-top: 0;
+    }
+
+    .job-dairy-left-side {
+        padding: 25px;
+        height: auto;
+    }
+
+
+    .job-dairy-left-side {
+        height: auto;
+    }
+
+    .job-dairy-right-side {
+        height: 300px;
+    }
+
+    .under-video .app,
+    .cs {
+        height: 300px !important;
+    }
+
+    .forms-under-video {
+        margin-top: 0;
+    }
+
+    .mobile-video-under {
+        width: 35% !important;
+    }
+
+    .video-section {
+        width: 75%;
+        height: 149px;
+    }
+
+    .video-section video {
+        width: 100%;
+        height: 100%;
+        border-radius: 28px;
+    }
+
+
+}
+
+/* Added By Mahmoud Alshukri */
+@media (max-width: 556px) {
+    .main-section{
+        overflow-x: hidden;
+    }
+    .main-section .navbar .navbar-brand{
+        width: 180px;
+    }
+
+}
+
+
+
+/* ============ mobile view .end// ============ */
