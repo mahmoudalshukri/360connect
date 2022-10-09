@@ -846,7 +846,7 @@ footer .icon-input-search {
 
 .video-section {
 	width: 75%;
-	height: 550px;
+	height: fit-content;
 	border-radius: 28px;
 	border: 5px solid #333;
 	margin: 0 auto;
